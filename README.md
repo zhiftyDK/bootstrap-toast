@@ -11,17 +11,17 @@ Put the following into the html body tag, or download the `bootstrap-toast.js` f
 ### How to use:
 Create a new toast like this:
 ```js
-const toast = new Toast("Title", "Body", "blue"); // title, body, color
+const toast = new Toast("Title", "Body", "blue"); // Takes 3 arguments, title, body and color
 ```
 
 Show the toast like this:
 ```js
-toast.show(autohide=true); // Autohide (boolean), if true (default) it will hide automatically and if false it will stay on screen untill closed.
+toast.show(autohide=true); // Autohide (boolean), if true (default) the toast will hide automatically and if false the toast will stay on screen untill closed.
 ```
 
 The toast can be hidden manually like this:
 ```js
-toast.hide();
+toast.hide(); // Hides the toast manually
 ```
 
 ### Example:
@@ -39,7 +39,7 @@ toast.hide();
     <script src="https://zhiftydk.github.io/bootstrap-toast/bootstrap-toast.js"></script>
     <script>
         const toast = new Toast("The title", "The body", "blue"); // Takes 3 arguments, title, body and color
-        toast.show(autohide=true); // Autohide (boolean), if true (default) it will hide automatically and if false it will stay on screen untill closed
+        toast.show(autohide=true); // Autohide (boolean), if true (default) the toast will hide automatically and if false the toast will stay on screen untill closed
     </script>
 </body>
 </html>
