@@ -2,6 +2,8 @@
 
 It has never been easier to use toasts with bootstrap.
 
+![alt text](https://zhiftydk.github.io/bootstrap-toast/image.png)
+
 ### Installation:
 Put the following into the html body tag, or download the `bootstrap-toast.js` file from this repo.
 ```html
